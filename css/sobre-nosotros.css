@@ -1,0 +1,151 @@
+/*Menú*/
+header{
+	padding-top: .5%;
+	background-color: #E0F8F7;
+	height: intrinsic;
+}
+header a, li p{
+	color:#989898;
+	text-decoration: none;
+	font-size:150%;
+	font-family: NeutraText-Light;
+}
+
+li, li p{
+	display: inline;
+	padding: .7%;
+}
+ul{
+	float:right;
+	margin-top: .5%;
+}
+
+.butt1{
+	border-radius: 10px;
+	color:white;
+	background-color:#989898;
+	font-size: 70%;
+	border-style: none;
+	padding: 1% 3%;
+}
+/*Primera sección*/
+.backg1{
+	background-image: url("../img/img_nosotros-02.png");
+	background-size: 100%;
+	height:550px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
+	padding-top: 5%;
+}
+section[name="secc1"] h1{
+	font-size: 300%;
+	margin-bottom: 3%;
+	font-family:MuseoSans_0;
+}
+
+section[name="secc1"] p{
+	font-family:NeutraText-LightAlt;
+	font-size: 160%;
+	padding: 0px 25% 0px 25%;
+}
+/*Segunda sección, fundadores*/
+
+section[name="secc2"] h1{
+	font-size: 300%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-family:MuseoSans_0;
+	color:#989898;
+}
+
+.circ-gray{
+	width: 160px;
+	height: 160px;
+	border-radius: 100%;
+	border: #989898 solid 2px;
+	margin: auto;
+}
+.profile{
+	background-image: url("../img/img-04.png");
+	background-image: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.white-border{
+	width: 155px;
+	height: 155px;
+	border-radius: 100%;
+	border: white solid 20px;
+	margin: auto;
+}
+section[name="secc2"] p:nth-child(2),section[name="secc3"] p:nth-child(2),section[name="secc4"] p:nth-child(2){
+	color:#28c5e6;
+	font-size: 160%;
+	font-family: MuseoSans;
+	padding-top: 5%;
+}
+section[name="secc2"] p:nth-child(3),section[name="secc3"] p:nth-child(3),section[name="secc4"] p:nth-child(3){
+	color:#989898;
+	font-size: 110%;
+	font-family: MuseoSans_1;
+}
+section[name="secc2"] p:nth-child(4),section[name="secc4"] p:nth-child(4){
+	color:#989898;
+	font-size: 110%;
+	font-family: MuseoSans;
+	padding: 5% 10% 0% 10%;
+}
+.line-gray{
+	width: 100%;       
+    border-bottom: 3px #989898 dotted;
+    margin-top: 5%;
+  	margin-bottom: 5%;
+}
+/*Tercera sección, Asesores*/
+section[name="secc3"] h1{
+	font-size: 300%;
+	margin-bottom: 3%;
+	font-family:MuseoSans_0;
+	color:#989898;
+}
+section[name="secc3"] p:nth-child(4){
+	color:#989898;
+	font-size: 110%;
+	font-family: MuseoSans;
+	padding: 5% 2% 0% 2%;
+}
+/*Cuarta sección,Test Advisory Committee*/
+section[name="secc4"] h1{
+	font-size: 300%;
+	margin-bottom: 3%;
+	font-family:MuseoSans_0;
+	color:#989898;
+}
+/*Quinta sección,Todos somos genios*/
+.backg2{
+	background-color: #ff6a49;
+	height:intrinsic;
+	width: 100%;
+	color:white;
+	padding-bottom: 7%;
+}
+
+.line-white{
+	width: 50%;       
+    border-bottom: 3px white dotted;
+    margin-top: 5%;
+  	margin-bottom: 5%;
+  	margin: auto;
+}
+section[name="secc5"] h2{
+	font-size: 220%;
+	margin-bottom: 3%;
+	font-family:MuseoSans;
+}
+section[name="secc5"] p{
+	font-size: 130%;
+	margin-bottom: 3%;
+	font-family:MuseoSans;
+	padding: 0% 10% 0% 10%;
+}

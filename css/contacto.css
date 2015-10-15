@@ -1,0 +1,92 @@
+/*Contacto*/
+#popup {
+	visibility: hidden;
+	opacity: 0;
+	margin-top: -200px;
+}
+#popup:target {
+	visibility:visible;
+	opacity: 1;
+	background-color: white;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0;
+	z-index: 99999999999;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	transition:all 1s;
+	}@media (min-width: 768px){
+	.popup-container {
+	width:600px;
+	border: 7px solid  #989898;
+}
+}
+@media (max-width: 767px){
+	.popup-container {
+	width:100%;
+}
+}
+.popup-container {
+	position: relative;
+	margin:7% auto;
+	padding:30px 50px;
+	background-color: white;
+	color:#fff;
+	border-radius: 40px;
+	}
+a.popup-close {
+	position: absolute;
+	top:6px;
+	right:6px;
+	background-color: transparent;
+	padding:7px 10px;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 1;
+	color: #989898;
+}
+.popup-form .input-group input[type="usuario"] {
+	position: a;
+}
+.popup-form .input-group input[type="contraseña"] {
+	background-color: #FB8833;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+section[name="contactanos"] input{
+	width:60%;
+	margin-left: -10%;
+}
+.butt8{
+	background-color: #28c5e6;
+	color:white;
+	padding: 2.5% 3% 2.5% 3%;
+	font-size: 110%;
+	border-radius:15px;
+	border-style: none;
+	margin-top: 5%;
+	margin-right:-60%;
+}
+
+section[name="contactanos"]{
+	margin-top: -100%;
+}
+label{
+	color: #989898;
+	font-size: 110%;
+	text-align: left;
+	display: block;
+}
+
+input[type="empresa"],input[type="cargo"]{
+	display: inline;
+	width: 30%;
+}
+section[name="contactanos"]{
+	margin-top: -100%;
+}
